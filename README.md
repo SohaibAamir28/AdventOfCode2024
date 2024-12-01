@@ -5,7 +5,7 @@
 
 # AdventofCode
 
-![Image of Views](https://github.com/SohaibAamir28/AdventOfCode2024/day1.png)
+![Image of Views](https://github.com/SohaibAamir28/AdventOfCode2024/blob/main/2024/01/day1.png)
 
 Leaderboard are also available for later years
 ## Pakistan Private Leaderboard: 1739374-77ea5f22
