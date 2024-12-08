@@ -15,6 +15,7 @@ Leaderboard are also available for later years
 ```
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+  8   00:20:35   2608      0   00:48:17   4662      0
   7   00:03:06    187      0   00:06:23    287      0
   6   13:38:43  52466      0   13:44:03  32185      0
   5   00:16:55   3206      0   00:17:47   1253      0
