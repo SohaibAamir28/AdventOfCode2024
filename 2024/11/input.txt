@@ -1,1 +1,55 @@
 3279 998884 1832781 517 8 18864 28 0
+# Load the input file and process the garden map
+input_file_path = '/mnt/data/input.txt'
+
+# Read the garden map
+with open(input_file_path, 'r') as file:
+    garden_map = [line.strip() for line in file.readlines()]
+
+# Define directions for checking neighbors
+directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
+
+# Function to calculate area and perimeter of a region
+def calculate_region_properties(garden_map, visited, x, y, plant_type):
+    rows, cols = len(garden_map), len(garden_map[0])
+    stack = [(x, y)]
+    area = 0
+    perimeter = 0
+    
+    while stack:
+        cx, cy = stack.pop()
+        if visited[cx][cy]:
+            continue
+        visited[cx][cy] = True
+        area += 1
+        
+        for dx, dy in directions:
+            nx, ny = cx + dx, cy + dy
+            if 0 <= nx < rows and 0 <= ny < cols:
+                if garden_map[nx][ny] == plant_type and not visited[nx][ny]:
+                    stack.append((nx, ny))
+                elif garden_map[nx][ny] != plant_type:
+                    perimeter += 1
+            else:
+                perimeter += 1  # Edge of the map
+    
+    return area, perimeter
+
+# Calculate total price for fencing all regions
+def calculate_total_price(garden_map):
+    rows, cols = len(garden_map), len(garden_map[0])
+    visited = [[False] * cols for _ in range(rows)]
+    total_price = 0
+    
+    for x in range(rows):
+        for y in range(cols):
+            if not visited[x][y]:
+                plant_type = garden_map[x][y]
+                area, perimeter = calculate_region_properties(garden_map, visited, x, y, plant_type)
+                total_price += area * perimeter
+    
+    return total_price
+
+# Compute the result
+total_price = calculate_total_price(garden_map)
+total_price
