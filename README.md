@@ -4,9 +4,15 @@
 
 
 # AdventofCode
+<<<<<<< HEAD
 # Day - 10
 ![Image of Views](https://github.com/SohaibAamir28/AdventOfCode2024/blob/main/2024/15/leadership-day-15-global.PNG)
 ![Image of Views](https://github.com/SohaibAamir28/AdventOfCode2024/blob/main/2024/15/leadership-day-15-pak.PNG)
+=======
+# Day - 14
+![Image of Views](https://github.com/SohaibAamir28/AdventOfCode2024/blob/main/2024/14/leadership-day-14-global.PNG)
+![Image of Views](https://github.com/SohaibAamir28/AdventOfCode2024/blob/main/2024/14/leadership-day-14-pak.PNG)
+>>>>>>> 9fb298a89d21fce1adf61a65e4b535d7193d0392
 
 Leaderboard are also available for later years
 ## Pakistan Private Leaderboard: 1739374-77ea5f22
