@@ -1,7 +1,7 @@
 # AdventofCode 2024
-# Day - 23
-![Image of Views](https://github.com/SohaibAamir28/AdventOfCode2024/blob/main/2024/23/leadership-day-23-global.png)
-![Image of Views](https://github.com/SohaibAamir28/AdventOfCode2024/blob/main/2024/23/leadership-day-23-pak.png)
+# Day - 24
+![Image of Views](https://github.com/SohaibAamir28/AdventOfCode2024/blob/main/2024/24/leadership-day-24-global.png)
+![Image of Views](https://github.com/SohaibAamir28/AdventOfCode2024/blob/main/2024/24/leadership-day-24-pak.png)
 Leaderboard are also available for later years
 ## Pakistan Private Leaderboard: 1739374-77ea5f22
 
@@ -9,6 +9,7 @@ Leaderboard are also available for later years
 ```
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+ 24   01:02:39   4187      0   02:15:08    989      0
  23   00:23:56   2590      0   00:24:47   1001      0
  22   00:11:56   1736      0   00:24:03    501      0
  21   01:10:25    585      0   01:11:56    171      0
