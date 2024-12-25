@@ -1,6 +1,6 @@
 # AdventofCode 2024
 # Day - 25
-![Image of Views](https://github.com/SohaibAamir28/AdventOfCode2024/2024-completed.png)
+![Image of Views](https://github.com/SohaibAamir28/AdventOfCode2024/blob/main/2024-completed.png)
 ![Image of Views](https://github.com/SohaibAamir28/AdventOfCode2024/blob/main/2024/25/leadership-day-25-global.png)
 ![Image of Views](https://github.com/SohaibAamir28/AdventOfCode2024/blob/main/2024/25/leadership-day-25-pak.png)
 Leaderboard are also available for later years
